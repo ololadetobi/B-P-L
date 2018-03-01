@@ -1,0 +1,109 @@
+body{
+  position: relative;
+  font-family: Open-sans, sans-serif;
+}
+
+
+#myScrollspy{
+  height: 100vh;
+  background-color: #04253B;
+  z-index: 99999;
+}
+
+.navbar-header{
+  font-weight: 600;
+  color: #04253B;
+  font-size: 50px;
+  padding: 20px 90px;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 50px 90px;
+    color:white
+  }
+#vertical-bar{
+  box-shadow: 1px 0px 4px 1px rgba(0, 0, 0, .5);
+  font-weight: bold;
+}
+
+.page-title{
+  padding: 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#datepicker{
+margin: 40px;
+padding: 20px  30px;
+box-shadow: 1px 2px 7px rgba(0, 0, 0, 0.3);
+border-radius: 5px;
+}
+
+#User-profle{
+  padding: 20px 0px;
+}
+
+#head{
+  z-index: 0;
+  box-shadow: 1px 0px 4px 1px rgba(0, 0, 0, .5);
+}
+
+#submit-btn{
+  border-radius: 5px;
+  border: 0px solid;
+  padding: 20px;
+  width: 100%;
+  background-color: #2C3E50;
+  color: white;
+}
+
+nav select {
+  display: none;
+}
+
+@media (max-width: 960px) {
+  nav ul     { display: none; }
+  nav select { display: inline-block; }
+}
+
+
+.card{
+  border-radius: 5px;
+  border: 0px solid;
+  padding: 20px;
+  box-shadow: 1px 0px 7px 3px rgba(181, 179, 179, 0.5);
+  padding: 60px;
+  margin: 10px;
+}
+
+.card-title{
+  font-weight: bolder;
+  color: #95989A;
+}
+
+.card-subtitle{
+  font-weight: bold;
+  color: #95989A
+}
+
+.trnx-no{
+font-size: 60px;
+font-weight: bolder;
+color: #95989A;
+}
+
+.trx{
+  margin: -20px 10px;
+  color: red;
+}
+
+.income-number , .expenses-number{
+font-weight: normal;
+font-size: 40px;
+color: #95989A;
+}
+
+.income , .expenses{
+  padding: -20px;
+}
