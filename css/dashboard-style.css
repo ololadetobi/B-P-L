@@ -1,6 +1,7 @@
-body{
-  position: relative;
-  font-family: Open-sans, sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body ,a , li, table {
+  font-family: "Open Sans", sans-serif;
 }
 
 
@@ -33,7 +34,7 @@ body{
   font-size: 20px;
   font-weight: bold;
 }
-#datepicker{
+#date{
 margin: 40px;
 padding: 20px  30px;
 box-shadow: 1px 2px 7px rgba(0, 0, 0, 0.3);
@@ -106,4 +107,41 @@ color: #95989A;
 
 .income , .expenses{
   padding: -20px;
+}
+
+
+#Search-filter{
+Padding: 20px 2px;
+margin: 60px 10px;
+box-shadow: 1px 0px 7px 3px rgba(181, 179, 179, 0.5);
+border-radius: 5px;
+border: 0px solid;
+font-size: 12px;
+font-weight: bold;
+text-decoration: none;
+font-family: open-sans ;sans-serif;
+}
+
+.button{
+  border-radius: 10px;
+  border: 0px solid;
+  margin: 5px;
+  background-color: #2C3E50;
+  color: white;
+  padding: 15px 30px;
+  margin: 30px  30px 20px 40px;
+  width: 100%;
+}
+
+.thead-inverse{
+background-color: #2C3E50;
+color: white;
+font-weight: bolder;
+}
+td{
+  height: 50px;
+  padding: 30px 0px;
+}
+table{
+  width: 90%;
 }
